@@ -12,7 +12,7 @@ def guess_number(name='PlayerOne'):
 
 
         player_choice = input(
-            f"\n{name} Guess a number: 1, 2, 3 \n\n"
+            f"\n{name} Guess a number: 1, 2, 3! \n\n"
         )
 
         if player_choice not in ["1", "2", "3"]:
